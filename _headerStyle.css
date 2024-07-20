@@ -1,5 +1,5 @@
 .head-logo {
-    height: 100px;
+    height: 70px;
     background-color: rgb(168, 119, 119);
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,8 @@
 }
 
 .head-logo-left img {
-    width: 150px;
-    height: 80px;
+    width: 100px;
+    height: 50px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -46,4 +46,71 @@
 .dark-mode a {
     color: azure;
     display: none;
+}
+
+
+/*         nav       */
+
+.head-nav {
+    height: 70px;
+    background-color: rgb(56, 87, 87);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.head-nav-right {
+    display: flex;
+    align-items: center;
+    border: 2px red solid;
+    padding: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.head-nav-right span {
+    vertical-align: middle;
+    background-color: rgb(206, 211, 206);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin: 0;
+}
+
+.head-nav-right input {
+    padding: 3px 5px;
+    margin: 0;
+    border-width: 0px;
+    height: 24px;
+}
+
+.head-nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.head-nav-left ul li {
+    margin-right: 35px;
+    background-color: rgb(101, 126, 10);
+    color: aqua;
+    padding: 2px 5px;
+    border: 2px red solid;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.head-nav-left ul li:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    border: 2px black solid;
 }
