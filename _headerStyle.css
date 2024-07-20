@@ -1,0 +1,168 @@
+.head-logo {
+    height: 70px;
+    background-color: rgb(132, 219, 193);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+
+.head-logo-left {
+    width: 100%;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.head-logo-left img {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.head-logo-right {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(73, 30, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.light-mode a {
+    color: azure;
+}
+
+.dark-mode a {
+    color: azure;
+    display: none;
+}
+
+
+/*         nav       */
+
+.head-nav {
+    height: 70px;
+    background-color: rgb(31, 175, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.head-nav-right {
+    display: flex;
+    align-items: center;
+    border: 2px red solid;
+    padding: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.head-nav-right span {
+    vertical-align: middle;
+    background-color: rgb(206, 211, 206);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin: 0;
+}
+
+.head-nav-right input {
+    padding: 3px 5px;
+    margin: 0;
+    border-width: 0px;
+    height: 24px;
+}
+
+.head-nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.head-nav-left ul li {
+    margin-right: 35px;
+    background-color: rgb(101, 126, 10);
+    color: aqua;
+    padding: 2px 5px;
+    border: 2px red solid;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.head-nav-left ul li:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    border: 2px black solid;
+}
+
+.head-img {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.head-img-left {
+    width: 50%;
+}
+
+.head-img-left h1 {
+    font-size: 24px;
+}
+
+.head-img-btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.head-img-btn button {
+    background-color: rgb(241, 3, 3);
+    color: blanchedalmond;
+    border: 2px black solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.head-img-btn button:hover {
+    opacity: 0.8;
+    background-color: blueviolet;
+    color: black;
+}
+
+.head-img-btn button a {
+    color: blanchedalmond;
+}
+
+.head-img p {
+    margin-top: 20px;
+    width: 50%;
+}
