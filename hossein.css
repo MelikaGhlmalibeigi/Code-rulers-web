@@ -1,0 +1,51 @@
+.our_team {
+  height: 700px;
+  background-color: orange;
+}
+
+.our_team_title {
+  padding: 3% 8%;
+  font-size: 2rem;
+}
+
+.our_team_box {
+  display: inline-block;
+  margin-left: 7%;
+  width: 300px;
+  height: 440px;
+  background-color: aqua;
+  border-radius: 15px;
+  box-shadow: 5px 8px 18px #6e6e6e;
+}
+
+.our_team_img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.our_team_description {
+  padding: 10% 10px 5% 10px;
+  font-size: 20px;
+}
+
+.our_team_links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5%;
+}
+
+.our_team_link {
+  color: #fff;
+  padding: 10px 15px;
+  background-color: chocolate;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.our_team_link:hover {
+  background-color: #fff;
+  color: chocolate;
+}
