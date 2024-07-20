@@ -8,9 +8,14 @@
   font-size: 2rem;
 }
 
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .our_team_box {
   display: inline-block;
-  margin-left: 7%;
   width: 300px;
   height: 440px;
   background-color: aqua;
