@@ -3,7 +3,7 @@
     background-color: rgb(132, 219, 193);
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
+    padding: 10px 250px;
 }
 
 .head-logo-left {
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 250px;
 }
 
 .head-nav-right {
@@ -121,7 +121,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 250px;
 }
 
 .head-img-left {
@@ -141,7 +141,7 @@
 }
 
 .head-img-btn button {
-    background-color: brown;
+    background-color: rgb(241, 3, 3);
     color: blanchedalmond;
     border: 2px black solid;
     padding: 5px 10px;
@@ -150,6 +150,12 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.head-img-btn button:hover {
+    opacity: 0.8;
+    background-color: blueviolet;
+    color: black;
 }
 
 .head-img-btn button a {
