@@ -1,0 +1,22 @@
+@import '_headerStyle.css';
+@font-face {
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    src: url();
+}
+
+*,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
