@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  padding: 0px 60px;
+  display: flex;
+  margin-top: 60px;
+}
+.card-r {
+  width: 25%;
+  height: auto;
+  padding: 10px;
+}
+.new-post {
+  width: 100%;
+  height: 360px;
+  box-shadow: 0px 2px 3px #a09f9f;
+}
+.card-img {
+  width: 100%;
+  height: 250px;
+  background-color: blueviolet;
+}
+.card-img img {
+  width: 100%;
+  height: 250px;
+}
+
+.btn {
+  padding: 30px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.button {
+  width: 100px;
+  padding: 6px;
+  background-color: rgb(190 113 222 / 80%);
+  border-radius: 5px;
+  color: black;
+}
+.button:hover {
+  background-color: rgb(124, 88, 252);
+}
