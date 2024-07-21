@@ -31,8 +31,8 @@ body {
 
 .btn {
   padding: 30px;
-  width: 100px;
-  display: block;
+  width: 150px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
