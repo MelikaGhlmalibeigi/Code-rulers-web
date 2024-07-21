@@ -5,7 +5,8 @@
   width: 75%;
   border-color: darksalmon;
   border-radius: 4%;
-  margin: auto;
+  margin: 50px auto;
+  padding: 10px;
 }
 
 .question-sign {
