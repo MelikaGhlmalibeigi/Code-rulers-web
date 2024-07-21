@@ -36,10 +36,14 @@ body {
   margin-right: auto;
   margin-top: 15px;
 }
+
 .button {
   width: 100px;
   padding: 6px;
   background-color: rgb(190 113 222 / 80%);
   border-radius: 5px;
   color: black;
+}
+.button:hover {
+  background-color: rgb(124, 88, 252);
 }
