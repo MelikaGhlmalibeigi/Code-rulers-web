@@ -3,23 +3,28 @@
 @import url("./style\ melika.css");
 @import url(./style.css);
 @font-face {
-  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  src: url();
+    font-family: "Roboto";
+    src: url(../font/Roboto-Regular.ttf) format("true type");
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF5E0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
 }
 
 ul,
 li,
 ol {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }

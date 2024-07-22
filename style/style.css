@@ -1,50 +1,74 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 .container {
-  width: 100%;
-  padding: 0px 60px;
-  display: flex;
-  margin-top: 60px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(180deg, #8DECB4, #93c9a8);
 }
+
 .card-r {
-  width: 25%;
-  height: auto;
-  padding: 10px;
-  margin: 0 auto;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 8px 18px #6e6e6e;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+    background-color: #FFF5E0;
+    margin: 80px;
 }
+
+.title-proj h1 {
+    padding: 0px 90px;
+}
+
 .new-post {
-  width: 100%;
-  height: 360px;
-  box-shadow: 0px 2px 3px #a09f9f;
+    width: 100%;
+    height: 360px;
 }
+
 .card-img {
-  width: 100%;
-  height: 250px;
-  background-color: blueviolet;
+    width: 100%;
+    height: 250px;
+    background-color: #41b06d50;
 }
+
 .card-img img {
-  width: 100%;
-  height: 250px;
+    width: 100%;
+    height: 250px;
 }
 
 .btn {
-  padding: 30px;
-  width: 150px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
+    padding: 30px;
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 .button {
-  width: 100px;
-  padding: 6px;
-  background-color: rgb(190 113 222 / 80%);
-  border-radius: 5px;
-  color: black;
+    font-size: 18px;
+    width: 100px;
+    padding: 6px;
+    background-color: #141E46;
+    border-radius: 5px;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
+
 .button:hover {
-  background-color: rgb(124, 88, 252);
+    background-color: #fff;
+    color: #141E46;
+}
+
+.title-project {
+    background-color: #8DECB4;
 }
