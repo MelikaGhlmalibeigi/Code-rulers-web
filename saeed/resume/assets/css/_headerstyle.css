@@ -2,8 +2,12 @@
     background-color: #fffc00fc !important;
 }
 
+header {
+    height: 100px;
+}
+
 .list-nav li {
-    margin: 5px;
+    margin: 0 5px;
     padding: 5px;
 }
 
