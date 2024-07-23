@@ -1,0 +1,20 @@
+.skill {
+    background-color: #F8F9FA;
+    height: auto;
+    padding: 50px;
+}
+
+.skill-title {
+    color: #C36CBC;
+}
+
+.skill-titile-btn {
+    width: 229px !important;
+    margin: auto;
+    background-color: #CED4DA;
+    color: #fff;
+}
+
+.skill-information ul li {
+    margin-top: 10px;
+}

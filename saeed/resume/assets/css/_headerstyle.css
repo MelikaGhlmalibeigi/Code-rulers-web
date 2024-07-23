@@ -1,0 +1,86 @@
+.custom-yellow {
+    background-color: #fffc00fc !important;
+}
+
+.list-nav li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-nav li a {
+    border: 1px solid#000000;
+    border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.list-nav li a:hover {
+    color: #fffc00fc !important;
+    border: 1px solid#fff;
+}
+
+.button-89 {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #d7dae0;
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b), #dbdada00 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #58464600;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #080404;
+}
+
+.btn-prof img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    border: 2px solid rgb(216, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.btn-prof img:hover {
+    border: 2px solid rgb(157, 255, 0);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn-prof {
+    margin-top: -63px;
+    margin-left: -80px;
+    margin-bottom: 0px;
+}
+
+header {
+    background-color: #1BB8B7;
+}

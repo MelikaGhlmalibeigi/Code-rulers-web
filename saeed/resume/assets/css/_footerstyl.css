@@ -1,0 +1,91 @@
+.footer {
+    width: 500px;
+    background-color: #0a8d8d;
+    height: auto;
+}
+
+.foot-name {
+    background-color: aliceblue;
+    font-family: Bionix-demo;
+    border-radius: 15px 50px;
+    -webkit-border-radius: 15px 50px;
+    -moz-border-radius: 15px 50px;
+    -ms-border-radius: 15px 50px;
+    -o-border-radius: 15px 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.foot-name:hover {
+    background-color: #0a0e08;
+    color: rgb(255, 251, 251);
+}
+
+.foot-media ul li a svg {
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 8px;
+}
+
+.foot-media ul li a svg:hover {
+    background-color: blanchedalmond;
+}
+
+@media (max-width: 800px) {
+    .foot-media ul li {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
+
+.foot-info ul li {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.foot-info ul li:nth-child(5) {
+    width: 300px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 10px;
+}
+
+.foot-info ul li:nth-child(5):hover {
+    background-color: aliceblue;
+    color: #0a0e08;
+    cursor: pointer;
+}
+
+.foot-head-form ul li {
+    color: rgb(224, 228, 231)!important;
+}
+
+.foot-head-form ul li input,
+.foot-head-form ul li textarea {
+    color: rgb(253, 254, 255)!important;
+    padding: 8px;
+    border-radius: 15px;
+    outline: 0;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.foot-head-form ul li input:focus,
+.foot-head-form ul li textarea:focus {
+    border: 1px red solid;
+}
