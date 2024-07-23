@@ -65,3 +65,30 @@
   text-align: justify;
   line-height: 1.5;
 }
+
+.lang_list {
+  display: flex;
+  height: 50vh;
+}
+
+.lang_list_left {
+  text-align: center;
+  padding: 15vh 10%;
+  text-align: left;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.lang_lists {
+  margin-top: 50px;
+  line-height: 1.5;
+}
+
+.lang_list_item {
+  list-style-type: "✔";
+  padding-left: 15px;
+}
+
+.lang_list_img {
+  width: 51%;
+}
