@@ -56,14 +56,28 @@
 .front_right {
   width: 50%;
   text-align: center;
-  padding: 25vh 10%;
+  padding: 15vh 10%;
   font-size: 1.3rem;
 }
 
 .front_right_description {
-  margin-top: 50px;
+  margin: 50px 0;
   text-align: justify;
   line-height: 1.5;
+}
+
+.home_page {
+  background-color: #141e46;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.home_page:hover {
+  background-color: #fff;
+  color: #141e46;
+  border: 2px solid #141e46;
 }
 
 .lang_list {
