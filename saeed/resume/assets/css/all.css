@@ -1,0 +1,51 @@
+@import 'bootstrap.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+@import '_headerstyle.css';
+@import '_secintro.css';
+@import 'font-awseme.css';
+@import '_secaboutme.css';
+@import '_skillstyle.css';
+@import '_workstyle.css';
+@import '_footerstyl.css';
+@font-face {
+    font-family: VactorySansRegular-drrAV;
+    src: url(../font/VactorySansRegular-drrAV.ttf);
+}
+
+@font-face {
+    font-family: Bionix-demo;
+    src: url(../font/Bionix-demo.otf);
+}
+
+@font-face {
+    font-family: Arenta-R9poW;
+    src: url(../font/Arenta-R9poW.otf);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: VactorySansRegular-drrAV;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.yellow {
+    background-color: blanchedalmond;
+}

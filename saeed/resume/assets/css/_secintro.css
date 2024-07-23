@@ -1,0 +1,85 @@
+            .intro-right img {
+                width: 100%;
+                border-radius: 50%;
+                border: 5px solid red;
+                cursor: pointer;
+            }
+            
+            .intro-right img:hover {
+                opacity: 0.85;
+            }
+            
+            .head-window {
+                background-color: aqua;
+                height: 70%;
+                border-radius: 17px 352px;
+            }
+            
+            @media only screen and (max-width: 1200px) {
+                .head-window {
+                    border-radius: 17px;
+                    -webkit-border-radius: 17px;
+                    -moz-border-radius: 17px;
+                    -ms-border-radius: 17px;
+                    -o-border-radius: 17px;
+                    height: auto;
+                }
+            }
+            
+            @media (max-width: 1000px) {
+                .intro-text,
+                .head-window ul {
+                    font-size: 15px;
+                }
+            }
+            /* file styles.css */
+            
+            #rotate {
+                border: 2px solid transparent;
+            }
+            
+            #rotate:hover {
+                animation: rotate-border 2s infinite linear;
+            }
+            
+            @keyframes rotate-border {
+                0% {
+                    border-top-color: red;
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                    border-left-color: transparent;
+                }
+                25% {
+                    border-top-color: transparent;
+                    border-right-color: red;
+                    border-bottom-color: transparent;
+                    border-left-color: transparent;
+                }
+                50% {
+                    border-top-color: transparent;
+                    border-right-color: transparent;
+                    border-bottom-color: red;
+                    border-left-color: transparent;
+                }
+                75% {
+                    border-top-color: transparent;
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                    border-left-color: red;
+                }
+                100% {
+                    border-top-color: red;
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                    border-left-color: transparent;
+                }
+            }
+            
+            .intro-list li span {
+                vertical-align: middle;
+            }
+            
+            .telegram svg,
+            .telephone svg {
+                width: 20px;
+            }
