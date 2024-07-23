@@ -2,7 +2,6 @@
 @import "../style/_headerStyle.css";
 
 .banner {
-  width: 100%;
   height: 90vh;
   display: flex;
   justify-content: space-around;
@@ -15,16 +14,54 @@
   width: 400px;
   height: 400px;
   border-radius: 300px;
-  box-shadow: 5px 5px 20px #41b06e;
+  box-shadow: 5px 5px 20px #93c9a8;
 }
 
 .banner_left {
   width: 400px;
 }
 
+.banner_left_title {
+  font-size: 2rem;
+}
+
 .banner_left_caption {
   font-size: 1.3rem;
   line-height: 1.2;
-  margin-top: 30px;
+  margin: 30px 0;
   text-align: justify;
+}
+
+.banner_btn {
+  background-color: #141e46;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 40px;
+  transition: all 0.5s ease;
+}
+
+.banner_btn:hover {
+  background-color: #fff;
+  color: #141e46;
+  border: 2px solid #141e46;
+}
+
+.front_end {
+  display: flex;
+  height: 70vh;
+  background-color: #41b06e;
+  color: #fff;
+}
+
+.front_right {
+  width: 50%;
+  text-align: center;
+  padding: 25vh 10%;
+  font-size: 1.3rem;
+}
+
+.front_right_description {
+  margin-top: 50px;
+  text-align: justify;
+  line-height: 1.5;
 }
